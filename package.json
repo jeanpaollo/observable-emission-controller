@@ -1,0 +1,41 @@
+{
+  "name": "observable-emission-controller",
+  "version": "1.0.0",
+  "description": "A class which reports emissions and waiting emissions",
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "compile": "npx tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run compile"
+  },
+  "pre-push": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanpaollo/observable-emission-controller.git"
+  },
+  "keywords": [
+    "observable",
+    "emission",
+    "controller"
+  ],
+  "author": "Jean Paollo Olimpio Gomes Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanpaollo/observable-emission-controller/issues"
+  },
+  "homepage": "https://github.com/jeanpaollo/observable-emission-controller#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "pre-push": "^0.1.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "nullish-utils": "^1.4.3",
+    "rxjs": "^7.8.1"
+  }
+}
